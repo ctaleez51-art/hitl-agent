@@ -1,0 +1,10 @@
+.env
+__pycache__/
+.venv/
+.claude/
+# 승인 대기 건 저장소 (실행할 때 생긴다)
+store/
+# 교안 실습 기록 — 과제 제출물이 아님
+practice.ipynb
+결과/
+Claude outputs/
