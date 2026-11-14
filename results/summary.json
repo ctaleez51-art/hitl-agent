@@ -537,10 +537,22 @@
    "disability"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:01:00"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "암환자 모두가 장애인공제 대상은 아닙니다. 장애인복지법에 의해 장애인으로 등록하거나, 장애아동 복지지원법에 따른 발달재활서비스 이용을 증명하는 서류를 제출하거나, 의료기관에서 ‘소득세법에서 정한 장애인증명서’를 발급받은 경우 장애인 공제를 적용받을 수 있습니다. [QA-077]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:01:00",
   "thread_id": "E04",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "결혼식은 안 하고 혼인신고만 했는데 배우자 공제 되나요?",
@@ -1028,10 +1040,21 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "reject",
+    "text": "",
+    "reason": "매달 45만원은 연 540만원으로 기준 5,166,667원을 넘는데 가능하다고 답함",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:16:29"
+   }
+  ],
+  "status": "rejected",
+  "finished_at": "2026-11-14T22:16:29",
+  "reject_reason": "매달 45만원은 연 540만원으로 기준 5,166,667원을 넘는데 가능하다고 답함",
   "thread_id": "H02",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "어머니가 국민연금을 1년에 510만원 받으시고 다른 소득은 없는데 기본공제 되나요?",
@@ -1097,10 +1120,22 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:17:37"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "네, 기본공제가 가능합니다. 국민연금 등 공적연금의 연간 연금수령액이 과세제외분을 제외하고 5,166,667원 이하이면 기본공제를 받을 수 있으며, 어머니는 다른 소득이 없고 510만원을 받으시므로 해당합니다. [QA-056]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:17:37",
   "thread_id": "H03",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "아내가 총급여 450만원이고 상가 월세 수입도 조금 있는데 배우자 공제 되나요?",
@@ -1166,10 +1201,22 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "edit",
+    "text": "안 됩니다. 근로소득만 있으면 총급여 500만원 이하일 때 소득요건을 충족하지만, 근로소득 외 다른 소득이 있으면 합산해서 판단합니다. 총급여액이 3,333,333원을 넘으면 근로소득금액만으로 100만원을 넘으므로 배우자 공제를 받을 수 없습니다. [QA-067]",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:19:41"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "안 됩니다. 근로소득만 있으면 총급여 500만원 이하일 때 소득요건을 충족하지만, 근로소득 외 다른 소득이 있으면 합산해서 판단합니다. 총급여액이 3,333,333원을 넘으면 근로소득금액만으로 100만원을 넘으므로 배우자 공제를 받을 수 없습니다. [QA-067]",
+  "sent_by": "수정 후 승인",
+  "finished_at": "2026-11-14T22:19:41",
   "thread_id": "H04",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "대학원생 아내가 연구용역비로 600만원을 받았는데 배우자 공제 되나요?",
@@ -1235,10 +1282,22 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:21:09"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "소득자의 선택에 따라 배우자 기본공제 여부가 결정됩니다. 연구용역비의 기타소득금액은 수입금액에서 필요경비를 차감하여 계산하며, 필요경비율은 60%입니다. 기타소득금액의 연간합계액이 300만원 이하이면서 원천징수된 소득은 분리과세와 종합과세를 선택할 수 있으므로, 분리과세를 선택하면 가능하고 종합과세를 선택하면 기본공제를 받을 수 없습니다. [QA-052]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:21:09",
   "thread_id": "H05",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "68세 아버지를 모시고 사는데 기본공제랑 경로우대 공제 둘 다 받을 수 있나요?",
@@ -1359,10 +1418,22 @@
    "multi"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:22:10"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "기본공제는 가능할 수 있으나, 68세 아버지에 대해서는 경로우대자 추가공제는 받을 수 없습니다. 직계존속은 연간소득금액 100만원 이하(근로소득만 있는 자는 총급여 500만원 이하)이고 60세 이상이면 기본공제 대상입니다. 경로우대자 추가공제는 70세 이상이어야 합니다. [KW-19] [QA-070]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:22:10",
   "thread_id": "H06",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "55세 아버지가 장애인이신데 기본공제랑 장애인 공제를 받으려면 뭐가 필요한가요?",
@@ -1483,10 +1554,22 @@
    "disability"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "edit",
+    "text": "네, 아버지가 장애인이고 연간소득금액이 100만원 이하이면 55세이더라도 기본공제와 장애인 추가공제를 받을 수 있습니다. 장애인은 나이에 관계없이 기본공제를 받을 수 있으며, 장애인 추가공제는 기본공제 대상 장애인 1명당 연 200만원입니다. [QA-018] [KW-71] 장애인으로 등록되어 있지 않다면 의료기관에서 장애인증명서를 발급받아 제출해야 합니다. [QA-081]",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:23:31"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "네, 아버지가 장애인이고 연간소득금액이 100만원 이하이면 55세이더라도 기본공제와 장애인 추가공제를 받을 수 있습니다. 장애인은 나이에 관계없이 기본공제를 받을 수 있으며, 장애인 추가공제는 기본공제 대상 장애인 1명당 연 200만원입니다. [QA-018] [KW-71] 장애인으로 등록되어 있지 않다면 의료기관에서 장애인증명서를 발급받아 제출해야 합니다. [QA-081]",
+  "sent_by": "수정 후 승인",
+  "finished_at": "2026-11-14T22:23:31",
   "thread_id": "H07",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "어머니가 치매 진단을 받으셨는데 장애인 공제 되나요?",
@@ -1552,10 +1635,22 @@
    "disability"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:24:04"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "치매환자 모두가 장애인공제 대상은 아닙니다. 장애인복지법에 의해 장애인으로 등록하거나, 장애아동 복지지원법에 따른 발달재활서비스 이용을 증명하는 서류를 제출하거나, 의료기관에서 ‘소득세법에서 정한 장애인증명서’를 발급받은 경우라면 장애인 공제를 적용받을 수 있습니다. [QA-078]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:24:04",
   "thread_id": "H08",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "이혼했고 아이는 전남편이 키우는데 제가 아이 기본공제를 받아도 되나요?",
@@ -1723,10 +1818,21 @@
    "other_year"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "reject",
+    "text": "",
+    "reason": "형이 올해 신청하지 않으면 본인이 받을 수 있는데, 작년에 받은 형이 우선이라 받기 어렵다고 답함",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:26:01"
+   }
+  ],
+  "status": "rejected",
+  "finished_at": "2026-11-14T22:26:01",
+  "reject_reason": "형이 올해 신청하지 않으면 본인이 받을 수 있는데, 작년에 받은 형이 우선이라 받기 어렵다고 답함",
   "thread_id": "H10",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "2024년 3월에 혼인신고를 했는데 2025년 귀속 연말정산에서 혼인세액공제를 받을 수 있나요?",
@@ -1887,10 +1993,22 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T21:58:38"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "안됩니다. 연간 연금수령액(과세제외분 제외)이 5,166,667원을 초과하면 기본공제를 받을 수 없습니다. [QA-057]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T21:58:38",
   "thread_id": "I01",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "아내가 일용직으로만 일해서 돈을 꽤 벌었는데 배우자 기본공제 되나요?",
@@ -2024,10 +2142,22 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:00:23"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "네, 가능합니다. 근로소득만 있는 경우 총급여액이 500만원 이하라면 배우자공제가 가능합니다. [QA-048]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:00:23",
   "thread_id": "I03",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "아내가 예금 이자소득만 1,900만원 있는데 배우자 기본공제 되나요?",
@@ -2093,10 +2223,22 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:00:41"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "네, 가능합니다. 금융기관 등을 통해 원천징수된 이자·배당소득 합계액 2천만원 이하는 분리과세되며, 연간소득금액 계산 시 비과세·분리과세 소득은 제외하여 판단합니다. 따라서 이자소득만 1,900만원인 경우 배우자 기본공제를 받을 수 있습니다. [QA-043]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:00:41",
   "thread_id": "I04",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "72세 어머니가 국민연금을 1년에 400만원 받으시는데, 기본공제와 경로우대 공제를 둘 다 받을 수 있나요?",
@@ -2199,10 +2341,22 @@
    "asks_amount"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "approve",
+    "text": "",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:01:16"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "네, 기본공제와 경로우대자 추가공제를 모두 받을 수 있습니다. 국민연금 연간 수령액이 5,166,667원 이하이면 기본공제를 받을 수 있고, 70세 이상인 기본공제대상자는 1명당 연 100만원을 추가공제합니다. [QA-056] [KW-06]",
+  "sent_by": "승인",
+  "finished_at": "2026-11-14T22:01:16",
   "thread_id": "M01",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "25세 장애인 동생을 부양하는데, 기본공제와 장애인 공제를 받으려면 무엇이 필요한가요?",
@@ -2319,10 +2473,22 @@
    "disability"
   ],
   "rejudges": 0,
-  "decisions": [],
+  "decisions": [
+   {
+    "action": "edit",
+    "text": "네, 가능합니다. 주민등록상 같은 주소지에서 살고 있는 장애인 동생의 연간소득금액이 100만원 이하이면 나이와 관계없이 기본공제와 장애인 공제를 받을 수 있습니다. [QA-083] 장애인으로 등록되어 있지 않다면 의료기관에서 장애인증명서를 발급받아 제출해야 합니다. [QA-081]",
+    "reason": "",
+    "instruction": "",
+    "by": "담당자",
+    "at": "2026-11-14T22:14:23"
+   }
+  ],
+  "status": "sent",
+  "sent_answer": "네, 가능합니다. 주민등록상 같은 주소지에서 살고 있는 장애인 동생의 연간소득금액이 100만원 이하이면 나이와 관계없이 기본공제와 장애인 공제를 받을 수 있습니다. [QA-083] 장애인으로 등록되어 있지 않다면 의료기관에서 장애인증명서를 발급받아 제출해야 합니다. [QA-081]",
+  "sent_by": "수정 후 승인",
+  "finished_at": "2026-11-14T22:14:23",
   "thread_id": "M02",
-  "pending": true,
-  "status": "pending"
+  "pending": false
  },
  {
   "question": "종합소득세 신고 기한이 언제예요?",

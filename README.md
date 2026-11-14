@@ -39,7 +39,7 @@
 | └ 승인 기준에 걸려 멈춤 | 14 |
 | └ 자동 발송 | 15 |
 
-답변 29건 중 채점에서 틀린 답은 4건이었고, 4건 모두 승인 기준에 걸려 멈췄습니다(놓침 0건, 헛멈춤 10건). 기준 후보별 비교는 [results/criteria.md](results/criteria.md), 건별 결과는 [results/summary.md](results/summary.md)에 있습니다.
+답변 29건 중 채점에서 틀린 답은 5건이었고, 5건 모두 승인 기준에 걸려 멈췄습니다(놓침 0건, 헛멈춤 9건). 기준 후보별 비교는 [results/criteria.md](results/criteria.md), 건별 결과는 [results/summary.md](results/summary.md)에 있습니다.
 
 ## 파일
 
